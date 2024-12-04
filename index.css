@@ -1,0 +1,72 @@
+.body {
+    color: #cf1c1c;
+    font-family: PT Astra Sans;
+}
+menu {
+    width: 180px;
+    float: left;
+    margin: 0 15px 10px 0;
+    background-color: #8d0e0e;
+    border: #662c2c;
+    background: url("menuBg.png") repeat-y;
+}content
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.set {
+    width: 300px;
+    margin: 20px;
+    padding: 30px;
+    background-color: blanchedalmond;
+    text-align: center;
+    border: 20px solid azure;
+    transition: transform 0.3s ease-in-out;
+}
+.set:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.set img {
+    min-width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+    border: 2px solid thistle;
+}
+.set h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: beige;
+}
+.set p {
+    margin-bottom: 20px;
+    color: bisque;
+}
+.btn-more {
+    padding: 10px 20px;
+    background-color: rgb(195, 141, 213);
+    color: rgb(157, 202, 237);
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+.btn-more:hover {
+    background-color: rgb(39, 39, 121);
+}  
+
+body {
+    font-family: PT Astra Sans;
+    background-color: bisque;
+}
+.footer {
+    background-color: beige;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    width: 99%;
+    font-size: 19px;
+    font-weight: bold;
+    color: beige;
+}
